@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Becas & Concursos | Portal de Oportunidades</title>
+    <meta name="description" content="Encuentra las mejores becas, concursos y oportunidades académicas y profesionales. Filtra, busca y guarda tus favoritas.">
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background glow elements -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+
+    <header class="app-header">
+        <div class="header-container">
+            <div class="logo">
+                <i class="fa-solid fa-star logo-icon"></i>
+                <span class="logo-text">Becas<span class="logo-accent">&</span>Concursos</span>
+            </div>
+            <nav class="nav-links">
+                <button id="nav-all" class="nav-btn active"><i class="fa-solid fa-border-all"></i> Todas</button>
+                <button id="nav-becas" class="nav-btn"><i class="fa-solid fa-award"></i> Becas</button>
+                <button id="nav-concursos" class="nav-btn"><i class="fa-solid fa-trophy"></i> Concursos</button>
+                <button id="nav-favorites" class="nav-btn"><i class="fa-solid fa-heart"></i> Favoritos <span id="fav-count" class="fav-badge">0</span></button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="app-main">
+        <!-- Hero Search Section -->
+        <section class="hero-section">
+            <h1 class="hero-title">Descubre tu próximo <span class="text-gradient">gran paso</span></h1>
+            <p class="hero-subtitle">Explora convocatorias vigentes de becas académicas y concursos de innovación, arte y tecnología.</p>
+            
+            <div class="search-filter-container">
+                <div class="search-bar">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input type="text" id="search-input" placeholder="Buscar por palabra clave, institución o disciplina...">
+                </div>
+                <div class="filter-controls">
+                    <div class="select-wrapper">
+                        <select id="filter-area">
+                            <option value="all">Todas las áreas</option>
+                            <option value="tecnologia">Tecnología & Ciencia</option>
+                            <option value="arte">Arte & Cultura</option>
+                            <option value="impacto">Impacto Social</option>
+                            <option value="academia">Academia & Investigación</option>
+                        </select>
+                    </div>
+                    <div class="select-wrapper">
+                        <select id="filter-status">
+                            <option value="all">Cualquier estado</option>
+                            <option value="open">Abierto (Vigente)</option>
+                            <option value="closing">Cierre próximo</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Bar -->
+        <section class="stats-bar">
+            <div class="stat-item">
+                <span id="stat-total" class="stat-number">0</span>
+                <span class="stat-label">Convocatorias</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <span id="stat-becas" class="stat-number">0</span>
+                <span class="stat-label">Becas Activas</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <span id="stat-concursos" class="stat-number">0</span>
+                <span class="stat-label">Concursos</span>
+            </div>
+        </section>
+
+        <!-- Grid of Opportunities -->
+        <section class="opportunities-section">
+            <div class="section-header">
+                <h2 id="section-title">Todas las Oportunidades</h2>
+                <div class="view-toggle">
+                    <!-- Added unique IDs for interactive controls -->
+                    <button id="view-grid" class="view-btn active" title="Vista cuadrícula"><i class="fa-solid fa-grid-2"></i><i class="fa-solid fa-grip"></i></button>
+                    <button id="view-list" class="view-btn" title="Vista lista"><i class="fa-solid fa-list"></i></button>
+                </div>
+            </div>
+
+            <div id="opportunities-grid" class="opportunities-grid grid-layout">
+                <!-- Cards will be dynamically generated by JS -->
+                <div class="loading-state">
+                    <div class="spinner"></div>
+                    <p>Cargando oportunidades...</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Opportunity Details Modal -->
+    <div id="details-modal" class="modal-backdrop" aria-hidden="true">
+        <div class="modal-content">
+            <button id="modal-close" class="modal-close-btn" aria-label="Cerrar modal"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-header">
+                <span id="modal-badge" class="opportunity-badge type-beca">Beca</span>
+                <h2 id="modal-title">Título de la Convocatoria</h2>
+                <p id="modal-institution" class="modal-institution"><i class="fa-solid fa-building-columns"></i> Universidad Organizadora</p>
+            </div>
+            <div class="modal-body">
+                <div class="modal-info-grid">
+                    <div class="modal-info-item">
+                        <i class="fa-solid fa-calendar-days text-gradient-icon"></i>
+                        <div>
+                            <strong>Fecha Límite</strong>
+                            <span id="modal-deadline">31 de Octubre, 2026</span>
+                        </div>
+                    </div>
+                    <div class="modal-info-item">
+                        <i class="fa-solid fa-circle-dollar-to-slot text-gradient-icon"></i>
+                        <div>
+                            <strong>Apoyo / Premio</strong>
+                            <span id="modal-reward">Apoyo Mensual</span>
+                        </div>
+                    </div>
+                    <div class="modal-info-item">
+                        <i class="fa-solid fa-globe text-gradient-icon"></i>
+                        <div>
+                            <strong>Modalidad</strong>
+                            <span id="modal-modality">Presencial / En línea</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-description-section">
+                    <h3>Sobre la Convocatoria</h3>
+                    <p id="modal-description">Descripción detallada de la oportunidad.</p>
+                </div>
+
+                <div class="modal-requirements-section">
+                    <h3>Requisitos principales</h3>
+                    <ul id="modal-requirements">
+                        <li>Requisito 1</li>
+                        <li>Requisito 2</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="modal-fav-btn" class="modal-secondary-btn"><i class="fa-regular fa-heart"></i> Favorito</button>
+                <a id="modal-apply-btn" href="#" target="_blank" class="modal-primary-btn">Ir al sitio oficial <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="app-footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Becas & Concursos. Creado con fines de facilitación y aprendizaje.</p>
+            <p class="footer-tagline">Conectando talento con su futuro.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
