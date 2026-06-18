@@ -55,24 +55,6 @@ const OPPORTUNITIES_DATA = [
         url: "https://platzi.com/hackathon"
     },
     {
-        id: "beca-creadores-digitales",
-        title: "Beca Creadores Digitales Emergentes",
-        type: "beca",
-        institution: "Secretaría de Cultura",
-        area: "arte",
-        areaLabel: "Arte & Cultura",
-        reward: "Fondo mensual de $8,000 MXN por un año",
-        modality: "Híbrido",
-        deadline: "2026-09-01",
-        description: "Estímulo económico y académico para artistas visuales, diseñadores y animadores que quieran desarrollar su primer cortometraje o portafolio digital interactivo.",
-        requirements: [
-            "Tener entre 18 y 29 años.",
-            "Presentar portafolio de trabajos artísticos previos.",
-            "Proyecto de creación a desarrollar en 12 meses."
-        ],
-        url: "https://www.gob.mx/cultura"
-    },
-    {
         id: "concurso-emprende-social",
         title: "Desafío Conexión Social 2026",
         type: "concurso",
