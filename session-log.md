@@ -51,6 +51,14 @@ Este documento contiene la bitácora y el progreso de las acciones realizadas du
 * Se implementó una lógica de ordenamiento ascendente en **[app.js](file:///C:/Users/HP/Documents/Code/concursos_y_becas/app.js)** para organizar todas las oportunidades automáticamente por fecha límite de entrega (cierre más próximo primero).
 * Se corrigió la falta de contraste de las opciones de los dropdowns (`select option`) en **[style.css](file:///C:/Users/HP/Documents/Code/concursos_y_becas/style.css)**, forzándolas a adoptar el fondo oscuro secundario y el texto claro para mantener la coherencia con el tema oscuro.
 
+### 7. Rebranding a "Becas & Concursos LDI"
+* Se cambió el título de la página en `<title>` de "Becas & Concursos" a **"Becas & Concursos LDI"**.
+* Se actualizó el texto del logo en el header a **"Becas&Concursos LDI"**.
+* Se modificó el subtítulo del Hero de "innovación, arte y tecnología" a **"innovación, diseño y tecnología"**.
+* Se actualizó el tagline del footer a **"Conectando a LDIs con nuevas oportunidades."**.
+* Se actualizó el copyright del footer a **"Becas & Concursos LDI"**.
+
+
 
 
 
