@@ -146,6 +146,252 @@ const OPPORTUNITIES_DATA = [
             "Subir tres láminas gráficas ISO-A3 en formato PDF de máximo 5 MB."
         ],
         url: "https://www.porada.it/es/porada-international-design-award/"
+    },
+    {
+        id: "rebelion-moda-zapopan",
+        title: "Rebelión Moda Zapopan",
+        type: "concurso",
+        institution: "Gobierno de Zapopan - Dirección de Industrias Creativas",
+        area: "arte",
+        areaLabel: "Arte & Cultura",
+        reward: "Programa gratuito de incubación integral",
+        modality: "Presencial",
+        deadline: "2026-07-10",
+        description: "Programa gratuito de incubación integral para emprendedores de moda, diseñado bajo la metodología práctica de 'Learning by Doing', que proporciona herramientas teóricas, prácticas y digitales para profesionalizar tu marca y potenciar tu negocio en el mercado actual.",
+        requirements: [
+            "Vivir, estudiar o trabajar en el municipio de Zapopan.",
+            "Tener una marca de indumentaria (ropa, calzado o accesorios) con producto disponible y con historial de ventas.",
+            "Disponibilidad de tiempo para asistir a las sesiones y presentar un proyecto final."
+        ],
+        url: "https://www.ingeniazapopan.com/rebelionmoda"
+    },
+    {
+        id: "james-dyson-award-2026",
+        title: "James Dyson Award 2026",
+        type: "concurso",
+        institution: "James Dyson Foundation",
+        area: "tecnologia",
+        areaLabel: "Tecnología & Ciencia",
+        reward: "£30,000 (ganador internacional) / £5,000 (ganador nacional)",
+        modality: "En línea",
+        deadline: "2026-07-15",
+        description: "Concurso internacional de diseño e ingeniería que busca inventores con ideas frescas que resuelvan problemas reales. Organizado por la James Dyson Foundation, está abierto a estudiantes actuales y recién egresados de carreras de diseño a nivel global.",
+        requirements: [
+            "Ser estudiante actual o recién egresado de carreras de diseño.",
+            "Diseñar una invención que resuelva un problema real.",
+            "Demostrar viabilidad técnica e investigación de costos de fabricación.",
+            "Incluir investigación sobre costos de manufactura y precio de venta."
+        ],
+        url: "https://www.jamesdysonaward.org/"
+    },
+    {
+        id: "premio-disena-mexico-2026",
+        title: "Premio Nacional de Diseño: Diseña México 2026",
+        type: "concurso",
+        institution: "Diseña México, Consejo Certificador de la Innovación y el Diseño",
+        area: "arte",
+        areaLabel: "Arte & Cultura",
+        reward: "Reconocimiento nacional, exhibición virtual y uso de marca",
+        modality: "Híbrido",
+        deadline: "2026-06-30",
+        description: "Concurso nacional de diseño en 7 categorías: Diseño de Producto, Diseño Digital, Comunicaciones Visuales, Espacios Interiores, Servicios y Experiencias, Moda, y Tesis o Investigación en Diseño. Abierto a estudiantes y profesionales de México y el continente americano.",
+        requirements: [
+            "Ser diseñador profesional o estudiante mexicano o extranjero radicado en México o países del continente americano.",
+            "Proyectos realizados entre el 1 de enero de 2025 y el 30 de junio de 2026.",
+            "Cubrir cuota de recuperación ($1,200 MXN estudiantes, $1,490 MXN profesionales).",
+            "Presentar máximo 6 fotografías por proyecto con descripción en el formato de inscripción."
+        ],
+        url: "https://www.premiodisenamexico.mx/registro"
+    },
+    {
+        id: "seoul-design-award-2026",
+        title: "Seoul Design Award 2026",
+        type: "concurso",
+        institution: "Seoul Design Foundation / Seoul Metropolitan Government",
+        area: "impacto",
+        areaLabel: "Impacto Social",
+        reward: "150,000,000 KRW total — Gran Premio: 50,000,000 KRW",
+        modality: "En línea",
+        deadline: "2026-06-30",
+        description: "Premio internacional de diseño que busca proyectos en todas las áreas del diseño realizados en los últimos 5 años, que contribuyan a un futuro más sostenible y armónico entre las personas, la sociedad, el medio ambiente y la naturaleza.",
+        requirements: [
+            "Proyectos de diseño en cualquier campo realizados en los últimos 5 años.",
+            "Abierto a diseñadores individuales, grupos y empresas.",
+            "Participar en una de las tres áreas: Main Award (proyectos realizados), Young Designer Award (métodos de realización) o ESG Design Impact Award (diseño corporativo sostenible).",
+            "Cumplir con los criterios de evaluación: solución creativa, impacto social y visión de futuro."
+        ],
+        url: "https://www.seouldesignaward.or.kr/guidelines/guidelines"
+    },
+    {
+        id: "aakruti-innovation-2026",
+        title: "AAKRUTI Innovation Competition 2026",
+        type: "concurso",
+        institution: "Dassault Systèmes (SOLIDWORKS)",
+        area: "tecnologia",
+        areaLabel: "Tecnología & Ciencia",
+        reward: "Final global en 3DEXPERIENCE World 2027, reconocimiento internacional y certificados",
+        modality: "Híbrido",
+        deadline: "2026-09-15",
+        description: "Competencia global de innovación y diseño para estudiantes que reta a resolver problemas del mundo real usando tecnología, creatividad e ingeniería. Desde 2011 han participado más de 75,000 estudiantes de 37 países en temáticas de Robótica, Problemas Comunitarios Locales, Innovación en Salud y Movilidad.",
+        requirements: [
+            "Ser estudiante universitario de Ingeniería, Diseño, Arquitectura, Medicina, Administración o Ciencias Sociales.",
+            "Formar un equipo de 4 estudiantes y 1 profesor.",
+            "Crear un 3DEXPERIENCE ID para cada miembro del equipo.",
+            "Seleccionar una temática: Robótica, Problemas Comunitarios, Innovación en Salud o Movilidad."
+        ],
+        url: "https://www.solidworks.com/product/students/aakruti-global"
+    },
+    {
+        id: "ie-immersive-design-2026",
+        title: "IE Immersive Design Competition 1st Edition 2026: Rethinking The Elevator Experience",
+        type: "concurso",
+        institution: "IE University - School of Architecture and Design",
+        area: "tecnologia",
+        areaLabel: "Tecnología & Ciencia",
+        reward: "40% descuento (1er lugar) / 20% descuento (2do lugar) en tuition del Master in Design for Immersive Experiences and XR",
+        modality: "En línea",
+        deadline: "2026-06-25",
+        description: "Concurso de diseño inmersivo que reta a replantear la experiencia del ascensor a través del diseño narrativo, interactivo y futurista. Enfoques: Hybrid Design (sensores, interacción espacial), Narrative Design (storytelling visual/sonoro/emocional) o Future Design (nueva visión de movilidad vertical inmersiva).",
+        requirements: [
+            "Presentar un PDF con máximo 5 diapositivas en formato 16:9 o 3:4.",
+            "Incluir título indicando el enfoque: Hybrid Design, Narrative Design o Future Design.",
+            "Explicación escrita en 1 diapositiva más representaciones visuales (diagramas, collages, storyboards, etc.).",
+            "Todos los textos en inglés y archivo nombrado como apellido_nombre_letra.pdf."
+        ],
+        url: "https://www.ie.edu/school-architecture-design/challenges/ie-immersive-design-competition-1st-edition-2026-rethinking-the-elevator-experience/"
+    },
+    {
+        id: "tisdc-2026",
+        title: "Taiwan International Student Design Competition (TISDC) 2026",
+        type: "concurso",
+        institution: "Ministry of Education, Taiwan / NTUST Department of Architecture",
+        area: "arte",
+        areaLabel: "Arte & Cultura",
+        reward: "Grand Prix: NT$400,000 / Gold: NT$250,000 / Silver: NT$150,000 / Bronze: NT$60,000 / Menciones: NT$10,000",
+        modality: "En línea",
+        deadline: "2026-07-06",
+        description: "Concurso global de diseño para estudiantes con categorías de Diseño de Producto, Diseño Visual, Animación Digital, Arquitectura y Paisaje, y Diseño de Moda. Plataforma de referencia internacional para premios estudiantiles de diseño, con enfoque en diseño para el bien social.",
+        requirements: [
+            "Ser estudiante activo de cualquier país del mundo.",
+            "Participar en una de las 5 categorías: Diseño de Producto, Diseño Visual, Animación Digital, Arquitectura y Paisaje, o Diseño de Moda.",
+            "Enviar archivos digitales para la evaluación preliminar.",
+            "Los trabajos finalistas pasan a evaluación presencial con discusión del jurado."
+        ],
+        url: "https://www.tisdc.org/en/home/"
+    },
+    {
+        id: "dia-2026",
+        title: "Design Intelligence Award (DIA) 2026",
+        type: "concurso",
+        institution: "DIA Committee",
+        area: "tecnologia",
+        areaLabel: "Tecnología & Ciencia",
+        reward: "Grand Award: ¥1,000,000 / Gold: ¥300,000 / Silver: ¥100,000 / Bronze: ¥30,000 / Future Talents: ¥20,000",
+        modality: "En línea (con envío físico para 2da evaluación)",
+        deadline: "2026-09-01",
+        description: "Premio internacional de diseño centrado en Intelligent Manufacturing con categorías de Digital Economy, Industrial Equipment, Life Wisdom y Cultural Innovation. Abierto a empresas, universidades, instituciones e individuos de todo el mundo.",
+        requirements: [
+            "Abierto a empresas, universidades, instituciones e individuos de cualquier país.",
+            "Product Group: productos lanzados en los últimos 2 años, con envío de producto físico para segunda evaluación.",
+            "Concept Group: demostrar viabilidad industrial, con prototipo funcional para segunda evaluación.",
+            "Registro gratuito hasta el 1 de julio de 2026; después aplicar cuota de ¥3,500/entry hasta el 1 de septiembre."
+        ],
+        url: "https://www.di-award.org/en/rules.html"
+    },
+    {
+        id: "hm-design-award-2026",
+        title: "H&M Design Award 2026",
+        type: "concurso",
+        institution: "H&M Group",
+        area: "arte",
+        areaLabel: "Arte & Cultura",
+        reward: "Grand Prize: €150,000 + mentoría + colección producida y vendida en tiendas H&M / Finalistas: €10,000 c/u",
+        modality: "En línea",
+        deadline: "2026-08-31",
+        description: "Premio anual que apoya a graduados emergentes de moda al inicio de sus carreras. Creado por H&M Group, celebra diseñadores con creatividad excepcional, innovación y respeto por la artesanía de la moda. El ganador recibe producción y venta de su colección en tiendas H&M y hm.com.",
+        requirements: [
+            "Ser graduado en 2025 o 2026 de un Bachelor's o Master's en moda (o equivalente) de una institución participante.",
+            "Presentar portafolio digital con colección de graduación de womenswear o menswear.",
+            "La colección debe incluir al menos 4 outfits completos (no solo prints o accesorios).",
+            "Declarar cualquier uso de IA en el proceso creativo."
+        ],
+        url: "https://designaward.hm.com/"
+    },
+    {
+        id: "only-natural-2026",
+        title: "Only Natural Home Competition 2026",
+        type: "concurso",
+        institution: "Only Natural",
+        area: "impacto",
+        areaLabel: "Impacto Social",
+        reward: "Inclusión en colección cápsula global + viaje a ceremonia en Londres + trofeo y certificado",
+        modality: "En línea",
+        deadline: "2026-06-30",
+        description: "Concurso internacional de diseño para estudiantes que inspira el uso de materiales naturales como alternativa al fast fashion y al diseño sintético. Categorías: Fashion (apparel, accessories, footwear) y Home (furniture, interiors). Promueve la sostenibilidad, la economía circular y la valoración de materiales naturales.",
+        requirements: [
+            "Ser estudiante activo o graduado en 2024-2025 de una institución de educación superior mundial.",
+            "Tener 18 años o más.",
+            "Diseñar con materiales naturales como foco principal (prohibido el uso de pieles o exóticos).",
+            "Entregar project summary, mood board, sketches, lista de materiales y video opcional, todo en inglés."
+        ],
+        url: "https://onlynatural.internationaldesigncomp.com/competition-event/home-2026/"
+    },
+    {
+        id: "beca-santander-manutencion-2026",
+        title: "Beca Santander Apoyo a la Manutención 2026",
+        type: "beca",
+        institution: "Santander Open Academy (Grupo Santander)",
+        area: "academia",
+        areaLabel: "Academia & Investigación",
+        reward: "$9,000 MXN (apoyo económico único)",
+        modality: "En línea",
+        deadline: "2026-07-20",
+        description: "300 becas de apoyo económico único de $9,000 MXN para estudiantes de educación superior técnica, licenciatura, maestría o doctorado en instituciones públicas o privadas de México. Iniciativa de Grupo Santander para contribuir al fortalecimiento de la trayectoria académica de estudiantes.",
+        requirements: [
+            "Tener 16 años cumplidos o más.",
+            "Estar inscrito en un programa de educación superior técnica, licenciatura, maestría o doctorado en institución pública o privada.",
+            "Registrarse en Santander Open Academy e inscribirse del 4 de mayo al 20 de julio de 2026.",
+            "Realizar un curso de acceso directo de Santander Open Academy antes del 11 de agosto de 2026.",
+            "Completar la inscripción del 24 de julio al 11 de agosto de 2026 con historial académico y credencial de estudiante."
+        ],
+        url: "https://app.santanderopenacademy.com/es/program/apoyo-a-la-manutencion-2026"
+    },
+    {
+        id: "beca-openbank-tech-manutencion-2026",
+        title: "Beca Santander Openbank Tech Manutención 2026",
+        type: "beca",
+        institution: "Santander Universidades & Openbank México",
+        area: "academia",
+        areaLabel: "Academia & Investigación",
+        reward: "$4,000 MXN (apoyo único para equipo tecnológico) + cursos IA",
+        modality: "En línea",
+        deadline: "2026-07-05",
+        description: "Apoyo económico único de $4,000 MXN para adquisición de equipo tecnológico, más acceso gratuito a cursos especializados en Inteligencia Artificial (ChatGPT, DALL-E, Google IA) y competencias digitales. Iniciativa de Santander Universidades y Openbank México.",
+        requirements: [
+            "Ser alumno regular activo matriculado en Licenciatura o TSU.",
+            "Completar el registro en el portal oficial de Santander Open Academy.",
+            "Registrarse antes del 5 de julio de 2026."
+        ],
+        url: "https://app.santanderopenacademy.com/es/program/openbank-tech-manutencion"
+    },
+    {
+        id: "santander-skills-for-work-2026",
+        title: "Curso Santander | Skills for Work 2026",
+        type: "beca",
+        institution: "Santander Open Academy & Coursera",
+        area: "academia",
+        areaLabel: "Academia & Investigación",
+        reward: "Acceso gratuito a 80+ cursos en Coursera por 12 meses • Incluye Google UX Design Professional Certificate",
+        modality: "En línea",
+        deadline: "2026-08-04",
+        description: "50,000 plazas gratuitas de Santander en colaboración con Coursera. Incluye el Google UX Design Professional Certificate y más de 80 cursos en IA, análisis de datos, liderazgo, comunicación y pensamiento crítico. Acceso completo al catálogo de Coursera durante 12 meses.",
+        requirements: [
+            "Ser mayor de 18 años.",
+            "Residir en Argentina, Brasil, Chile, Colombia, Alemania, México, Perú, Portugal, España, Reino Unido, Estados Unidos o Uruguay.",
+            "Registrarse en Santander Open Academy y aplicar antes del 4 de agosto de 2026.",
+            "Completar la evaluación de habilidades en la plataforma."
+        ],
+        url: "https://app.santanderopenacademy.com/es/program/skills-for-work-2026"
     }
 ];
 

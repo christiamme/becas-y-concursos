@@ -58,6 +58,21 @@ Este documento contiene la bitácora y el progreso de las acciones realizadas du
 * Se actualizó el tagline del footer a **"Conectando a LDIs con nuevas oportunidades."**.
 * Se actualizó el copyright del footer a **"Becas & Concursos LDI"**.
 
+### 8. Integración de Nueva Convocatoria
+* Se investigó y agregó la convocatoria **Rebelión Moda Zapopan** desde su sitio web oficial. Se catalogó como `concurso` en el área de `arte` (Arte & Cultura), con fecha límite de registro del **10 de julio de 2026**.
+* Se investigó y agregó la convocatoria **James Dyson Award 2026** desde su sitio web oficial. Se catalogó como `concurso` en el área de `tecnologia` (Tecnología & Ciencia), con fecha límite del **15 de julio de 2026**.
+* Se investigó y agregó la convocatoria **Premio Nacional de Diseño: Diseña México 2026** desde su sitio web oficial. Se catalogó como `concurso` en el área de `arte` (Arte & Cultura), con fecha límite del **30 de junio de 2026**.
+* Se investigó y agregó la convocatoria **Seoul Design Award 2026** desde su sitio web oficial. Se catalogó como `concurso` en el área de `impacto` (Impacto Social), con fecha límite del **30 de junio de 2026**.
+* Se investigó y agregó la convocatoria **AAKRUTI Innovation Competition 2026** desde su sitio web oficial. Se catalogó como `concurso` en el área de `tecnologia` (Tecnología & Ciencia), con fecha límite del **15 de septiembre de 2026**.
+* Se investigó y agregó la convocatoria **IE Immersive Design Competition 1st Edition 2026** desde su sitio web oficial. Se catalogó como `concurso` en el área de `tecnologia` (Tecnología & Ciencia), con fecha límite del **25 de junio de 2026**.
+* Se investigó y agregó la convocatoria **Taiwan International Student Design Competition (TISDC) 2026** desde su sitio web oficial. Se catalogó como `concurso` en el área de `arte` (Arte & Cultura), con fecha límite del **6 de julio de 2026**.
+* Se investigó y agregó la convocatoria **Design Intelligence Award (DIA) 2026** desde su sitio web oficial. Se catalogó como `concurso` en el área de `tecnologia` (Tecnología & Ciencia), con fecha límite del **1 de septiembre de 2026**.
+* Se investigó y agregó la convocatoria **H&M Design Award 2026** desde su sitio web oficial. Se catalogó como `concurso` en el área de `arte` (Arte & Cultura), con fecha límite del **31 de agosto de 2026**.
+* Se investigó y agregó la convocatoria **Only Natural Home Competition 2026** desde su sitio web oficial. Se catalogó como `concurso` en el área de `impacto` (Impacto Social), con fecha límite del **30 de junio de 2026**.
+* Se investigó y agregó la **Beca Santander Apoyo a la Manutención 2026** desde su sitio web oficial. Se catalogó como `beca` en el área de `academia` (Academia & Investigación), con fecha límite del **20 de julio de 2026**.
+* Se investigó y agregó la **Beca Santander Openbank Tech Manutención 2026** desde su sitio web oficial. Se catalogó como `beca` en el área de `academia` (Academia & Investigación), con fecha límite del **5 de julio de 2026**.
+* Se investigó y agregó el **Curso Santander | Skills for Work 2026** desde su sitio web oficial. Se catalogó como `beca` en el área de `academia` (Academia & Investigación), con fecha límite del **4 de agosto de 2026**. Incluye el **Google UX Design Professional Certificate** y más de 80 cursos en Coursera durante 12 meses.
+
 
 
 
