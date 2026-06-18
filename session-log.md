@@ -72,6 +72,7 @@ Este documento contiene la bitácora y el progreso de las acciones realizadas du
 * Se investigó y agregó la **Beca Santander Apoyo a la Manutención 2026** desde su sitio web oficial. Se catalogó como `beca` en el área de `academia` (Academia & Investigación), con fecha límite del **20 de julio de 2026**.
 * Se investigó y agregó la **Beca Santander Openbank Tech Manutención 2026** desde su sitio web oficial. Se catalogó como `beca` en el área de `academia` (Academia & Investigación), con fecha límite del **5 de julio de 2026**.
 * Se investigó y agregó el **Curso Santander | Skills for Work 2026** desde su sitio web oficial. Se catalogó como `beca` en el área de `academia` (Academia & Investigación), con fecha límite del **4 de agosto de 2026**. Incluye el **Google UX Design Professional Certificate** y más de 80 cursos en Coursera durante 12 meses.
+* Se eliminó la **Beca Santander Estudios | Graduados** de `app.js` por solicitud del usuario.
 
 
 

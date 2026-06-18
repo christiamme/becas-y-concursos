@@ -1,24 +1,6 @@
 // Mock database of opportunities
 const OPPORTUNITIES_DATA = [
     {
-        id: "beca-santander-2026",
-        title: "Beca Santander Estudios | Graduados",
-        type: "beca",
-        institution: "Banco Santander",
-        area: "academia",
-        areaLabel: "Academia & Investigación",
-        reward: "Apoyo de $10,000 MXN + Mentoría",
-        modality: "En línea",
-        deadline: "2026-09-30",
-        description: "Beca dirigida a estudiantes de licenciatura y posgrado que deseen complementar sus estudios universitarios con apoyo de manutención y formación especializada.",
-        requirements: [
-            "Ser alumno regular de una universidad mexicana.",
-            "Tener promedio mínimo de 8.5 en el ciclo anterior.",
-            "Completar el curso en la plataforma Santander antes de la fecha límite."
-        ],
-        url: "https://www.becas-santander.com"
-    },
-    {
         id: "concurso-innovacion-sostenible",
         title: "Premio a la Innovación Sostenible",
         type: "concurso",
