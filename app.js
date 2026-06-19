@@ -374,6 +374,63 @@ const OPPORTUNITIES_DATA = [
             "Completar la evaluación de habilidades en la plataforma."
         ],
         url: "https://app.santanderopenacademy.com/es/program/skills-for-work-2026"
+    },
+    {
+        id: "convocatoria-docente-bid26",
+        title: "X Encuentro BID de Enseñanza y Diseño | Convocatoria Académica",
+        type: "concurso",
+        institution: "Bienal Iberoamericana de Diseño (BID) & DIMAD",
+        area: "academia",
+        areaLabel: "Academia & Investigación",
+        reward: "Ponencia en Foro Académico + Publicación en catálogo + Certificado de participación",
+        modality: "Híbrido (Madrid, España / En línea)",
+        deadline: "2026-07-15",
+        description: "Convocatoria dirigida a docentes, investigadores y centros formativos de Iberoamérica para participar en el X Encuentro BID de Enseñanza y Diseño y presentar sus investigaciones en el Foro Académico (FABID26). Con foco en el diseño como una 'práctica situada' y su relación con el territorio, tecnología e impacto público.",
+        requirements: [
+            "Ser docente, investigador o representante de un centro formativo de Iberoamérica.",
+            "Presentar propuestas de comunicación oral o poster digital sobre investigación, innovación docente o transferencia.",
+            "Los proyectos deben alinearse a los ejes temáticos del encuentro (diseño y tecnología, resiliencia, territorio, etc.).",
+            "Realizar la inscripción y envío de propuestas a través del sitio oficial de la BID."
+        ],
+        url: "https://bid-dimad.com/"
+    },
+    {
+        id: "concurso-joyeria-2026",
+        title: "36° Concurso Internacional de Diseño de Joyería",
+        type: "concurso",
+        institution: "Cámara de Joyería de Jalisco (CEDIJ)",
+        area: "arte",
+        areaLabel: "Arte & Cultura",
+        reward: "Reconocimiento nacional, difusión y premios de patrocinadores",
+        modality: "Híbrido (Registro en línea + Envío físico)",
+        deadline: "2026-08-21",
+        description: "Prestigioso certamen que convoca a diseñadores, joyeros y estudiantes a postular piezas de joyería originales inspiradas en el tema rector 'Coexistir'. Esta edición, basada en macrotendencias 2027, invita a reflexionar sobre la individualidad, la identidad y la vida en comunidad.",
+        requirements: [
+            "Participación abierta a diseñadores, joyeros, estudiantes y entusiastas del diseño.",
+            "Desarrollar una pieza de joyería terminada bajo el concepto y temática rectora 'Coexistir'.",
+            "Realizar el registro digital a través de la plataforma y coordinar el envío de la pieza física terminada.",
+            "No se aceptarán propuestas meramente digitales o enviadas de forma extemporánea."
+        ],
+        url: "https://camaradejoyeria.com.mx/servicios/concurso/"
+    },
+    {
+        id: "concurso-asipi-disenos-2026",
+        title: "Concurso Los Mejores Diseños Industriales 2026",
+        type: "concurso",
+        institution: "Asociación Interamericana de la Propiedad Intelectual (ASIPI)",
+        area: "tecnologia",
+        areaLabel: "Tecnología & Ciencia",
+        reward: "Reconocimiento internacional, difusión y ceremonia de premiación en Santiago de Chile",
+        modality: "En línea",
+        deadline: "2026-10-01",
+        description: "Certamen panamericano que busca reconocer y promover la protección de los diseños industriales como herramientas estratégicas clave para la innovación, la competitividad y la generación de valor en la región.",
+        requirements: [
+            "Ser persona física o jurídica residente de algún país del continente americano con miembros activos en ASIPI.",
+            "Contar con una solicitud en trámite o un registro vigente de diseño industrial ante la oficina nacional de propiedad industrial correspondiente.",
+            "La participación es gratuita y se realiza digitalmente a través del portal oficial del concurso.",
+            "Cumplir con los lineamientos técnicos del reglamento oficial de ASIPIDISEÑOS 2026."
+        ],
+        url: "https://asipi.org/concurso-disenos-industriales-2026/?lang=es"
     }
 ];
 

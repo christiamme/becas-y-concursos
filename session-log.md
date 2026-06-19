@@ -73,6 +73,12 @@ Este documento contiene la bitácora y el progreso de las acciones realizadas du
 * Se investigó y agregó la **Beca Santander Openbank Tech Manutención 2026** desde su sitio web oficial. Se catalogó como `beca` en el área de `academia` (Academia & Investigación), con fecha límite del **5 de julio de 2026**.
 * Se investigó y agregó el **Curso Santander | Skills for Work 2026** desde su sitio web oficial. Se catalogó como `beca` en el área de `academia` (Academia & Investigación), con fecha límite del **4 de agosto de 2026**. Incluye el **Google UX Design Professional Certificate** y más de 80 cursos en Coursera durante 12 meses.
 * Se eliminó la **Beca Santander Estudios | Graduados** de `app.js` por solicitud del usuario.
+* Se investigó y agregó la convocatoria docente **X Encuentro BID de Enseñanza y Diseño | Convocatoria Académica** desde su sitio oficial. Se catalogó como `concurso` en el área de `academia` (Academia & Investigación), con fecha límite del **15 de julio de 2026**.
+* Se investigó y agregó el **36° Concurso Internacional de Diseño de Joyería** de la Cámara de Joyería de Jalisco desde su sitio web oficial. Se catalogó como `concurso` en el área de `arte` (Arte & Cultura), con fecha límite del **21 de agosto de 2026**.
+* Se investigó y agregó el **Concurso Los Mejores Diseños Industriales 2026** de la Asociación Interamericana de la Propiedad Intelectual (ASIPI) desde su sitio oficial. Se catalogó como `concurso` en el área de `tecnologia` (Tecnología & Ciencia), con fecha límite del **1 de octubre de 2026**.
+
+
+
 
 
 
