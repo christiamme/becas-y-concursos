@@ -376,6 +376,25 @@ const OPPORTUNITIES_DATA = [
         url: "https://app.santanderopenacademy.com/es/program/skills-for-work-2026"
     },
     {
+        id: "creativa-gdl-2026",
+        title: "Creativa GDL 2026 | Programa de Incubación Creativa",
+        type: "concurso",
+        institution: "Gobierno de Guadalajara - Dirección de Emprendimiento",
+        area: "arte",
+        areaLabel: "Arte & Cultura",
+        reward: "$200,000 MXN + incubación y aceleración",
+        modality: "Presencial (Guadalajara)",
+        deadline: "2026-08-09",
+        description: "Programa de incubación de alto impacto para industrias creativas y digitales. Selecciona 30 proyectos en etapa temprana para recibir mentoría, financiamiento, alianzas estratégicas y proyección internacional. Clústers: Animación, Diseño y Arte Digital; Producción Audiovisual y Musical; Realidad Virtual y Aumentada; Videojuegos; Creación de Contenido.",
+        requirements: [
+            "Proyecto en etapa inicial o con prototipo (MVP) listo para validar.",
+            "Equipo interdisciplinario (diseño, tecnología, negocios, arte, marketing).",
+            "Propuesta original e innovadora en industrias creativas y digitales.",
+            "Registrarse en el sitio oficial antes del 9 de agosto de 2026 a las 23:59 h."
+        ],
+        url: "https://www.creativagdl.com/"
+    },
+    {
         id: "convocatoria-docente-bid26",
         title: "X Encuentro BID de Enseñanza y Diseño | Convocatoria Académica",
         type: "concurso",

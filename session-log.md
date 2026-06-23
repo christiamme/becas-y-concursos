@@ -76,6 +76,7 @@ Este documento contiene la bitácora y el progreso de las acciones realizadas du
 * Se investigó y agregó la convocatoria docente **X Encuentro BID de Enseñanza y Diseño | Convocatoria Académica** desde su sitio oficial. Se catalogó como `concurso` en el área de `academia` (Academia & Investigación), con fecha límite del **15 de julio de 2026**.
 * Se investigó y agregó el **36° Concurso Internacional de Diseño de Joyería** de la Cámara de Joyería de Jalisco desde su sitio web oficial. Se catalogó como `concurso` en el área de `arte` (Arte & Cultura), con fecha límite del **21 de agosto de 2026**.
 * Se investigó y agregó el **Concurso Los Mejores Diseños Industriales 2026** de la Asociación Interamericana de la Propiedad Intelectual (ASIPI) desde su sitio oficial. Se catalogó como `concurso` en el área de `tecnologia` (Tecnología & Ciencia), con fecha límite del **1 de octubre de 2026**.
+* Se investigó y agregó **Creativa GDL 2026 | Programa de Incubación Creativa** desde su sitio web oficial. Se catalogó como `concurso` en el área de `arte` (Arte & Cultura), con fecha límite del **9 de agosto de 2026**. Premio de $200,000 MXN para proyectos de industrias creativas y digitales.
 
 
 
