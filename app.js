@@ -450,6 +450,25 @@ const OPPORTUNITIES_DATA = [
             "Cumplir con los lineamientos técnicos del reglamento oficial de ASIPIDISEÑOS 2026."
         ],
         url: "https://asipi.org/concurso-disenos-industriales-2026/?lang=es"
+    },
+    {
+        id: "muuto-design-contest-003",
+        title: "Muuto Design Contest 003",
+        type: "concurso",
+        institution: "Muuto",
+        area: "arte",
+        areaLabel: "Arte & Cultura",
+        reward: "1er lugar: €5,000 + posible producción • 2° y 3er: €2,500 c/u",
+        modality: "En línea",
+        deadline: "2026-10-12",
+        description: "Concurso abierto de diseño organizado por la marca danesa Muuto. Tema 'Grounded in Nature': accesorios y mobiliario pequeño para exteriores o espacios de transición interior-exterior. Busca piezas funcionales y escultóricas con esencia del diseño escandinavo que desafíen las nociones tradicionales. El ganador verá su diseño potencialmente producido por Muuto.",
+        requirements: [
+            "Tener formación o experiencia en diseño, arquitectura o campos afines.",
+            "Enviar propuesta en PDF (máx. 20 MB) con renders, fotografías de modelos, visualizaciones de contexto y consideraciones de escalabilidad.",
+            "La propuesta debe armonizar con el universo Muuto y su estética escandinava.",
+            "Enviar a designcontest@muuto.com antes del 12 de octubre de 2026."
+        ],
+        url: "https://www.muuto.com/design-contest/"
     }
 ];
 
