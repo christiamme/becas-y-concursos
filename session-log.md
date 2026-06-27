@@ -61,7 +61,7 @@ Este documento contiene la bitácora y el progreso de las acciones realizadas du
 ### 8. Integración de Nueva Convocatoria
 * Se investigó y agregó la convocatoria **Rebelión Moda Zapopan** desde su sitio web oficial. Se catalogó como `concurso` en el área de `arte` (Arte & Cultura), con fecha límite de registro del **10 de julio de 2026**.
 * Se investigó y agregó la convocatoria **James Dyson Award 2026** desde su sitio web oficial. Se catalogó como `concurso` en el área de `tecnologia` (Tecnología & Ciencia), con fecha límite del **15 de julio de 2026**.
-* Se investigó y agregó la convocatoria **Premio Nacional de Diseño: Diseña México 2026** desde su sitio web oficial. Se catalogó como `concurso` en el área de `arte` (Arte & Cultura), con fecha límite del **30 de junio de 2026**.
+* Se investigó y agregó la convocatoria **Premio Nacional de Diseño: Diseña México 2026** desde su sitio web oficial. Se catalogó como `concurso` en el área de `arte` (Arte & Cultura), con fecha límite del **30 de junio de 2026**. Posteriormente se actualizó al **10 de julio de 2026**.
 * Se investigó y agregó la convocatoria **Seoul Design Award 2026** desde su sitio web oficial. Se catalogó como `concurso` en el área de `impacto` (Impacto Social), con fecha límite del **30 de junio de 2026**.
 * Se investigó y agregó la convocatoria **AAKRUTI Innovation Competition 2026** desde su sitio web oficial. Se catalogó como `concurso` en el área de `tecnologia` (Tecnología & Ciencia), con fecha límite del **15 de septiembre de 2026**.
 * Se investigó y agregó la convocatoria **IE Immersive Design Competition 1st Edition 2026** desde su sitio web oficial. Se catalogó como `concurso` en el área de `tecnologia` (Tecnología & Ciencia), con fecha límite del **25 de junio de 2026**.
@@ -78,6 +78,7 @@ Este documento contiene la bitácora y el progreso de las acciones realizadas du
 * Se investigó y agregó el **Concurso Los Mejores Diseños Industriales 2026** de la Asociación Interamericana de la Propiedad Intelectual (ASIPI) desde su sitio oficial. Se catalogó como `concurso` en el área de `tecnologia` (Tecnología & Ciencia), con fecha límite del **1 de octubre de 2026**.
 * Se investigó y agregó **Creativa GDL 2026 | Programa de Incubación Creativa** desde su sitio web oficial. Se catalogó como `concurso` en el área de `arte` (Arte & Cultura), con fecha límite del **9 de agosto de 2026**. Premio de $200,000 MXN para proyectos de industrias creativas y digitales.
 * Se investigó y agregó **Muuto Design Contest 003** desde su sitio web oficial. Se catalogó como `concurso` en el área de `arte` (Arte & Cultura), con fecha límite del **12 de octubre de 2026**. Premio de €5,000 + posible producción para el ganador.
+* Se cambió el filtro de estado predeterminado a "Abiertas" en la carga inicial (`filterStatus.value = 'open'`) para ocultar convocatorias vencidas sin eliminarlas.
 
 
 

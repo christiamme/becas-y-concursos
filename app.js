@@ -175,11 +175,11 @@ const OPPORTUNITIES_DATA = [
         areaLabel: "Arte & Cultura",
         reward: "Reconocimiento nacional, exhibición virtual y uso de marca",
         modality: "Híbrido",
-        deadline: "2026-06-30",
+        deadline: "2026-07-10",
         description: "Concurso nacional de diseño en 7 categorías: Diseño de Producto, Diseño Digital, Comunicaciones Visuales, Espacios Interiores, Servicios y Experiencias, Moda, y Tesis o Investigación en Diseño. Abierto a estudiantes y profesionales de México y el continente americano.",
         requirements: [
             "Ser diseñador profesional o estudiante mexicano o extranjero radicado en México o países del continente americano.",
-            "Proyectos realizados entre el 1 de enero de 2025 y el 30 de junio de 2026.",
+            "Proyectos realizados entre el 1 de enero de 2025 y el 10 de julio de 2026.",
             "Cubrir cuota de recuperación ($1,200 MXN estudiantes, $1,490 MXN profesionales).",
             "Presentar máximo 6 fotografías por proyecto con descripción en el formato de inscripción."
         ],
@@ -519,6 +519,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setupEventListeners();
     updateFavoritesBadge();
     calculateStats();
+    filterStatus.value = 'open';
     renderOpportunities();
 });
 
