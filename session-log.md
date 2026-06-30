@@ -79,6 +79,7 @@ Este documento contiene la bitácora y el progreso de las acciones realizadas du
 * Se investigó y agregó **Creativa GDL 2026 | Programa de Incubación Creativa** desde su sitio web oficial. Se catalogó como `concurso` en el área de `arte` (Arte & Cultura), con fecha límite del **9 de agosto de 2026**. Premio de $200,000 MXN para proyectos de industrias creativas y digitales.
 * Se investigó y agregó **Muuto Design Contest 003** desde su sitio web oficial. Se catalogó como `concurso` en el área de `arte` (Arte & Cultura), con fecha límite del **12 de octubre de 2026**. Premio de €5,000 + posible producción para el ganador.
 * Se cambió el filtro de estado predeterminado a "Abiertas" en la carga inicial (`filterStatus.value = 'open'`) para ocultar convocatorias vencidas sin eliminarlas.
+* Se reemplazó la fecha hardcodeada `2026-06-18` por `new Date()` en `isClosingSoon()` y en el filtro `'open'`, para que use la fecha real del navegador y las convocatorias vencidas se oculten correctamente.
 
 
 

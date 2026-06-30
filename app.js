@@ -613,7 +613,7 @@ function formatDisplayDate(dateString) {
 // Check if opportunity is closing soon (e.g. less than 30 days from now, simulating 2026-06-18)
 function isClosingSoon(dateString) {
     const deadlineDate = new Date(dateString);
-    const currentDate = new Date('2026-06-18');
+    const currentDate = new Date();
     const diffTime = deadlineDate - currentDate;
     const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
     return diffDays > 0 && diffDays <= 30;
@@ -717,7 +717,7 @@ function renderOpportunities() {
         
         // Status dropdown filter
         if (statusFilter === 'open') {
-            const dateDiff = new Date(opp.deadline) - new Date('2026-06-18');
+            const dateDiff = new Date(opp.deadline) - new Date();
             if (dateDiff < 0) return false;
         } else if (statusFilter === 'closing') {
             if (!isClosingSoon(opp.deadline)) return false;
