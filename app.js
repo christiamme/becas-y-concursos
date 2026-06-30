@@ -751,8 +751,17 @@ function renderOpportunities() {
         card.className = 'opportunity-card';
         card.setAttribute('data-id', opp.id);
         
-        const isAlert = isClosingSoon(opp.deadline, todayStr, futureStr);
-        const deadlineClass = isAlert ? 'info-value deadline-alert' : 'info-value';
+        const isClosingSoon = opp.deadline > todayStr && opp.deadline <= futureStr;
+        const isClosingToday = opp.deadline === todayStr;
+        let deadlineClass = 'info-value';
+        let alertIcon = '';
+        if (isClosingToday) {
+            deadlineClass = 'info-value deadline-today';
+            alertIcon = '<i class="fa-solid fa-circle-exclamation"></i> ';
+        } else if (isClosingSoon) {
+            deadlineClass = 'info-value deadline-alert';
+            alertIcon = '<i class="fa-solid fa-triangle-exclamation"></i> ';
+        }
         const displayDate = formatDisplayDate(opp.deadline);
         
         if (viewLayout === 'grid') {
@@ -780,7 +789,7 @@ function renderOpportunities() {
                     </div>
                     <div class="card-info" style="text-align: right;">
                         <span class="info-label">Cierre</span>
-                        <span class="${deadlineClass}">${isAlert ? '<i class="fa-solid fa-triangle-exclamation"></i> ' : ''}${displayDate}</span>
+                        <span class="${deadlineClass}">${alertIcon}${displayDate}</span>
                     </div>
                 </div>
             `;
@@ -809,7 +818,7 @@ function renderOpportunities() {
                     </div>
                     <div class="card-info" style="text-align: right;">
                         <span class="info-label">Límite</span>
-                        <span class="${deadlineClass}">${displayDate}</span>
+                        <span class="${deadlineClass}">${alertIcon}${displayDate}</span>
                     </div>
                     <button class="favorite-btn ${isFav ? 'active' : ''}" style="margin-left: 1rem;" onclick="event.stopPropagation(); window.appToggleFav('${opp.id}')">
                         <i class="${isFav ? 'fa-solid' : 'fa-regular'} fa-heart"></i>

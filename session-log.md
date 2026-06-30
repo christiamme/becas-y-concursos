@@ -82,6 +82,7 @@ Este documento contiene la bitácora y el progreso de las acciones realizadas du
 * Se reemplazó la fecha hardcodeada `2026-06-18` por `new Date()` en `isClosingSoon()` y en el filtro `'open'`, para que use la fecha real del navegador y las convocatorias vencidas se oculten correctamente.
 * Se cambió la lógica de comparación de fechas a strings YYYY-MM-DD para evitar problemas de zona horaria. Ahora las convocatorias con cierre el día de hoy se consideran vigentes, y solo se ocultan las que vencieron en días anteriores.
 * Se reordenaron y renombraron los contadores del stats-bar: Convocatorias abiertas → Concursos activos → Becas activas → Convocatorias publicadas. Los primeros 3 cuentan solo las vigentes, el último muestra el total publicado.
+* Se agregó distinción visual en la fecha de cierre: las que cierran HOY se marcan en rojo (`deadline-today`) con icono `fa-circle-exclamation`, las que cierran próximamente (1-30 días) en amarillo (`deadline-alert`), y las demás sin alerta.
 
 
 

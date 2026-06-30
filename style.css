@@ -531,6 +531,10 @@ body {
     color: var(--warning);
 }
 
+.info-value.deadline-today {
+    color: var(--error);
+}
+
 /* List view specifics */
 .opportunities-grid.list-layout .opportunity-card {
     flex-direction: row;
