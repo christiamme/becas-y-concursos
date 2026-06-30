@@ -80,6 +80,8 @@ Este documento contiene la bitácora y el progreso de las acciones realizadas du
 * Se investigó y agregó **Muuto Design Contest 003** desde su sitio web oficial. Se catalogó como `concurso` en el área de `arte` (Arte & Cultura), con fecha límite del **12 de octubre de 2026**. Premio de €5,000 + posible producción para el ganador.
 * Se cambió el filtro de estado predeterminado a "Abiertas" en la carga inicial (`filterStatus.value = 'open'`) para ocultar convocatorias vencidas sin eliminarlas.
 * Se reemplazó la fecha hardcodeada `2026-06-18` por `new Date()` en `isClosingSoon()` y en el filtro `'open'`, para que use la fecha real del navegador y las convocatorias vencidas se oculten correctamente.
+* Se cambió la lógica de comparación de fechas a strings YYYY-MM-DD para evitar problemas de zona horaria. Ahora las convocatorias con cierre el día de hoy se consideran vigentes, y solo se ocultan las que vencieron en días anteriores.
+* Se reordenaron y renombraron los contadores del stats-bar: Convocatorias abiertas → Concursos activos → Becas activas → Convocatorias publicadas. Los primeros 3 cuentan solo las vigentes, el último muestra el total publicado.
 
 
 

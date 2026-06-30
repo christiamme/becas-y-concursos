@@ -490,9 +490,10 @@ const favBadge = document.getElementById('fav-count');
 const sectionTitle = document.getElementById('section-title');
 
 // Stat Elements
-const statTotal = document.getElementById('stat-total');
-const statBecas = document.getElementById('stat-becas');
+const statAbiertas = document.getElementById('stat-abiertas');
 const statConcursos = document.getElementById('stat-concursos');
+const statBecas = document.getElementById('stat-becas');
+const statTotal = document.getElementById('stat-total');
 
 // View Toggle Elements
 const viewGridBtn = document.getElementById('view-grid');
@@ -593,13 +594,18 @@ function setLayout(layoutType) {
 
 // Calculate Dashboard Stats
 function calculateStats() {
-    const total = OPPORTUNITIES_DATA.length;
-    const becas = OPPORTUNITIES_DATA.filter(o => o.type === 'beca').length;
-    const concursos = OPPORTUNITIES_DATA.filter(o => o.type === 'concurso').length;
+    const d = new Date();
+    const todayStr = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 
+    const abiertas = OPPORTUNITIES_DATA.filter(o => o.deadline >= todayStr).length;
+    const concursosActivos = OPPORTUNITIES_DATA.filter(o => o.type === 'concurso' && o.deadline >= todayStr).length;
+    const becasActivas = OPPORTUNITIES_DATA.filter(o => o.type === 'beca' && o.deadline >= todayStr).length;
+    const total = OPPORTUNITIES_DATA.length;
+
+    statAbiertas.textContent = abiertas;
+    statConcursos.textContent = concursosActivos;
+    statBecas.textContent = becasActivas;
     statTotal.textContent = total;
-    statBecas.textContent = becas;
-    statConcursos.textContent = concursos;
 }
 
 // Format Deadline for user display
@@ -610,13 +616,8 @@ function formatDisplayDate(dateString) {
     return `${date.getDate()} de ${months[date.getMonth()]}, ${date.getFullYear()}`;
 }
 
-// Check if opportunity is closing soon (e.g. less than 30 days from now, simulating 2026-06-18)
-function isClosingSoon(dateString) {
-    const deadlineDate = new Date(dateString);
-    const currentDate = new Date();
-    const diffTime = deadlineDate - currentDate;
-    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-    return diffDays > 0 && diffDays <= 30;
+function isClosingSoon(dateString, todayStr, futureStr) {
+    return dateString > todayStr && dateString <= futureStr;
 }
 
 // Favorites Action Handlers
@@ -694,6 +695,11 @@ function closeModal() {
 function renderOpportunities() {
     gridContainer.innerHTML = '';
     
+    const d = new Date();
+    const todayStr = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+    d.setDate(d.getDate() + 30);
+    const futureStr = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+    
     const searchText = searchInput.value.toLowerCase().trim();
     const areaFilter = filterArea.value;
     const statusFilter = filterStatus.value;
@@ -717,10 +723,9 @@ function renderOpportunities() {
         
         // Status dropdown filter
         if (statusFilter === 'open') {
-            const dateDiff = new Date(opp.deadline) - new Date();
-            if (dateDiff < 0) return false;
+            if (opp.deadline < todayStr) return false;
         } else if (statusFilter === 'closing') {
-            if (!isClosingSoon(opp.deadline)) return false;
+            if (!isClosingSoon(opp.deadline, todayStr, futureStr)) return false;
         }
         
         return true;
@@ -746,7 +751,7 @@ function renderOpportunities() {
         card.className = 'opportunity-card';
         card.setAttribute('data-id', opp.id);
         
-        const isAlert = isClosingSoon(opp.deadline);
+        const isAlert = isClosingSoon(opp.deadline, todayStr, futureStr);
         const deadlineClass = isAlert ? 'info-value deadline-alert' : 'info-value';
         const displayDate = formatDisplayDate(opp.deadline);
         
