@@ -469,6 +469,65 @@ const OPPORTUNITIES_DATA = [
             "Enviar a designcontest@muuto.com antes del 12 de octubre de 2026."
         ],
         url: "https://www.muuto.com/design-contest/"
+    },
+    {
+        id: "concurso-dibujo-japon-2026",
+        title: 'Concurso de Dibujo 2026: "La amistad México – Japón a través del deporte"',
+        type: "concurso",
+        institution: "Fundación Japón en México",
+        area: "arte",
+        areaLabel: "Arte & Cultura",
+        reward: "$5,000 MXN en mangas + $5,000 en artículos Pentel (1er) / $3,000 + $3,000 (2do) / $2,000 + $2,000 (3ro) + exposición",
+        modality: "En línea (Envío por correo electrónico)",
+        deadline: "2026-09-01",
+        description: "Concurso de dibujo organizado por Fundación Japón en México, en colaboración con Panini Manga, Pentel y la artista Alma Luna. Invita a representar la amistad entre México y Japón a través del deporte mediante ilustraciones originales que incluyan un mensaje en japonés. Dos categorías: A (16+) y B (15 años y menores). Abierto a residentes en México.",
+        requirements: [
+            "Residir en la República Mexicana.",
+            "Dibujo completamente original (prohibido fan art, personajes preexistentes e inteligencia artificial).",
+            "Incluir un mensaje o frase en japonés acorde a la temática.",
+            "Formato tabloide (43.2 x 27.9 cm) con márgenes de 1 cm; cualquier técnica aceptada.",
+            "Enviar digitalizado en JPG, PNG o PDF (máx. 5 MB) a cultura@jpf.go.jp con asunto 'Concurso de dibujo', incluyendo nombre, edad, categoría, título y correo del tutor (si es menor de 18 años)."
+        ],
+        url: "https://mc.jpf.go.jp/concurso-de-dibujo-2026-la-amistad-mexico-japon-a-traves-del-deporte/"
+    },
+    {
+        id: "mx-street-photo-contest-2026",
+        title: "Sony Alpha: MX Street Photo Contest 2026",
+        type: "concurso",
+        institution: "MX Street Photo Fest (MXSPF) & Sony México",
+        area: "arte",
+        areaLabel: "Arte & Cultura",
+        reward: "Cámara Sony Alpha ILCE-7M3 (1er) / A6400 (2do) / A6100 (3ro) + exposición en MAQRO",
+        modality: "En línea",
+        deadline: "2026-09-20",
+        description: "Concurso internacional de fotografía de calle del MX Street Photo Fest. Se seleccionarán 20 finalistas para exposición en el Museo de Arte de Querétaro (MAQRO) del 23 de octubre al 22 de noviembre de 2026. Jurado internacional de 7 fotógrafos referentes, patrocinado por Sony México.",
+        requirements: [
+            "Abierto a fotógrafos mayores de 18 años de cualquier nacionalidad sin importar nivel de experiencia.",
+            "Las fotografías deben ser del género Street Photography: situaciones cándidas y espontáneas en espacios públicos.",
+            "No se aceptan montajes, manipulaciones digitales ni imágenes generadas por IA (se realizará análisis forense de metadatos).",
+            "Fotografías tomadas a partir del 1 de enero de 2022, en JPG, RGB, 1600px lado más largo, máx 1.5 MB.",
+            "Seleccionar paquete de inscripción: $8 USD (1 foto), $18 USD (3 fotos) o $25 USD (6 fotos)."
+        ],
+        url: "https://mxstreetphotofest.com/concurso/"
+    },
+    {
+        id: "beca-ama-amoedo-2026",
+        title: "Becas Fundación Ama Amoedo 2026",
+        type: "beca",
+        institution: "Fundación Ama Amoedo",
+        area: "arte",
+        areaLabel: "Arte & Cultura",
+        reward: "$10,000 USD c/u (10 becas en 4 categorías)",
+        modality: "En línea",
+        deadline: "2026-09-09",
+        description: "Convocatoria de becas dirigida a artistas, colectivos y organizaciones sin fines de lucro con conexión significativa con América Latina. Cuatro categorías: Artistas, Arte y Compromiso Social, Organizaciones, y Publicaciones. Busca impulsar proyectos que promuevan el arte y la cultura en la región.",
+        requirements: [
+            "Postular en una de las cuatro categorías: Artistas, Arte y Compromiso Social, Organizaciones, o Publicaciones.",
+            "Dirigido a artistas, colectivos y organizaciones sin fines de lucro con conexión significativa con América Latina.",
+            "Completar el formulario de postulación en línea antes del 9 de septiembre de 2026 a las 23:59 ARG.",
+            "Presentar documentación del proyecto según los lineamientos de la categoría seleccionada."
+        ],
+        url: "https://www.fundacionamaamoedo.org/programas/becas"
     }
 ];
 

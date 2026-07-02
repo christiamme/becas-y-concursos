@@ -84,11 +84,14 @@ Este documento contiene la bitácora y el progreso de las acciones realizadas du
 * Se reordenaron y renombraron los contadores del stats-bar: Convocatorias abiertas → Concursos activos → Becas activas → Convocatorias publicadas. Los primeros 3 cuentan solo las vigentes, el último muestra el total publicado.
 * Se agregó distinción visual en la fecha de cierre: las que cierran HOY se marcan en rojo (`deadline-today`) con icono `fa-circle-exclamation`, las que cierran próximamente (1-30 días) en amarillo (`deadline-alert`), y las demás sin alerta.
 
+### 9. Integración de Fundación Ama Amoedo
+* Se investigó y agregó **Becas Fundación Ama Amoedo 2026** tras confirmar fecha de cierre con el usuario. Se catalogó como `beca` en el área de `arte` (Arte & Cultura), con fecha límite del **9 de septiembre de 2026**. Premio de $10,000 USD por beca (10 becas en 4 categorías: Artistas, Arte y Compromiso Social, Organizaciones, Publicaciones).
 
+### 10. Integración de MX Street Photo Contest 2026
+* Se investigó y agregó **Sony Alpha: MX Street Photo Contest 2026** desde su sitio web oficial. Se catalogó como `concurso` en el área de `arte` (Arte & Cultura), con fecha límite del **20 de septiembre de 2026**. Premios: cámaras Sony Alpha para los 3 primeros lugares + exposición de 20 finalistas en el Museo de Arte de Querétaro (MAQRO).
 
-
-
-
+### 11. Integración de Concurso de Dibujo 2026 – Fundación Japón
+* Se investigó y agregó **Concurso de Dibujo 2026: "La amistad México – Japón a través del deporte"** desde su sitio web oficial. Se catalogó como `concurso` en el área de `arte` (Arte & Cultura), con fecha límite del **1 de septiembre de 2026**. Premios: vales de $5,000/$3,000/$2,000 MXN en mangas Panini y artículos Pentel + exposición. Colaboración con Panini Manga, Pentel y Alma Luna.
 
 
 
