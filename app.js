@@ -471,6 +471,28 @@ const OPPORTUNITIES_DATA = [
         url: "https://www.muuto.com/design-contest/"
     },
     {
+        id: "kpmg-global-tech-innovator-2026",
+        title: "KPMG Private Enterprise Global Tech Innovator 2026",
+        type: "concurso",
+        institution: "KPMG Private Enterprise",
+        area: "tecnologia",
+        areaLabel: "Tecnología & Ciencia",
+        reward: "Visibilidad global, mentoría KPMG, networking con inversionistas y cobertura mediática",
+        modality: "Híbrido (Semifinal virtual / Final presencial internacional)",
+        deadline: "2026-07-31",
+        description: "Competencia global de innovación tecnológica organizada por KPMG que reúne a startups tecnológicos prometedores de todo el mundo. Más de 1,300 solicitantes, 21 competencias regionales y una final global en noviembre de 2026. Abierto a empresas tecnológicas registradas en México con hasta 7 años de operación.",
+        requirements: [
+            "Ser una empresa registrada en México.",
+            "Haber operado activamente por 7 años o menos.",
+            "Generar ingresos entre USD 1 millón y USD 15 millones, o haber recaudado al menos USD 500,000 en capital.",
+            "Ser una empresa impulsada o liderada por la tecnología.",
+            "No ser propiedad mayoritaria de una gran empresa.",
+            "Realizar todas las presentaciones en inglés.",
+            "Disponibilidad para participar en la final global en el extranjero en noviembre de 2026."
+        ],
+        url: "https://kpmg.com/mx/es/tendencias/2026/04/kpmg-private-enterprise-global-tech-innovator.html"
+    },
+    {
         id: "concurso-dibujo-japon-2026",
         title: 'Concurso de Dibujo 2026: "La amistad México – Japón a través del deporte"',
         type: "concurso",

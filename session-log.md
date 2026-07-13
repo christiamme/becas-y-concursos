@@ -93,6 +93,9 @@ Este documento contiene la bitácora y el progreso de las acciones realizadas du
 ### 11. Integración de Concurso de Dibujo 2026 – Fundación Japón
 * Se investigó y agregó **Concurso de Dibujo 2026: "La amistad México – Japón a través del deporte"** desde su sitio web oficial. Se catalogó como `concurso` en el área de `arte` (Arte & Cultura), con fecha límite del **1 de septiembre de 2026**. Premios: vales de $5,000/$3,000/$2,000 MXN en mangas Panini y artículos Pentel + exposición. Colaboración con Panini Manga, Pentel y Alma Luna.
 
+### 12. Integración de KPMG Global Tech Innovator 2026
+* Se investigó y agregó **KPMG Private Enterprise Global Tech Innovator 2026** desde su sitio web oficial. Se catalogó como `concurso` en el área de `tecnologia` (Tecnología & Ciencia), con fecha límite del **31 de julio de 2026**. Competencia global para startups tecnológicos con visibilidad internacional, mentoría y networking con inversionistas.
+
 
 
 
