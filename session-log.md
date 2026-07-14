@@ -96,6 +96,9 @@ Este documento contiene la bitácora y el progreso de las acciones realizadas du
 ### 12. Integración de KPMG Global Tech Innovator 2026
 * Se investigó y agregó **KPMG Private Enterprise Global Tech Innovator 2026** desde su sitio web oficial. Se catalogó como `concurso` en el área de `tecnologia` (Tecnología & Ciencia), con fecha límite del **31 de julio de 2026**. Competencia global para startups tecnológicos con visibilidad internacional, mentoría y networking con inversionistas.
 
+### 13. Actualización de fecha – Encuentro BID
+* Se actualizó la fecha límite del **X Encuentro BID de Enseñanza y Diseño | Convocatoria Académica** del 15 de julio al **12 de agosto de 2026**.
+
 
 
 

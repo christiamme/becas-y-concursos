@@ -403,7 +403,7 @@ const OPPORTUNITIES_DATA = [
         areaLabel: "Academia & Investigación",
         reward: "Ponencia en Foro Académico + Publicación en catálogo + Certificado de participación",
         modality: "Híbrido (Madrid, España / En línea)",
-        deadline: "2026-07-15",
+        deadline: "2026-08-12",
         description: "Convocatoria dirigida a docentes, investigadores y centros formativos de Iberoamérica para participar en el X Encuentro BID de Enseñanza y Diseño y presentar sus investigaciones en el Foro Académico (FABID26). Con foco en el diseño como una 'práctica situada' y su relación con el territorio, tecnología e impacto público.",
         requirements: [
             "Ser docente, investigador o representante de un centro formativo de Iberoamérica.",
