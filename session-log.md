@@ -99,6 +99,15 @@ Este documento contiene la bitácora y el progreso de las acciones realizadas du
 ### 13. Actualización de fecha – Encuentro BID
 * Se actualizó la fecha límite del **X Encuentro BID de Enseñanza y Diseño | Convocatoria Académica** del 15 de julio al **12 de agosto de 2026**.
 
+### 14. Integración de UNESCO Youth Hackathon 2026
+* Se investigó y agregó **UNESCO Youth Hackathon 2026** desde su sitio web oficial. Se catalogó como `concurso` en el área de `impacto` (Impacto Social), con fecha límite del **16 de agosto de 2026**. Premio: viaje a Tesalónica, Grecia para 4 equipos ganadores (vuelo + hospedaje + alimentos cubiertos). Enfocado en Alfabetización Mediática e Informacional para jóvenes de 18–30 años.
+
+### 15. Integración de Climatón UNAM 2026
+* Se investigó y agregó **Climatón UNAM 2026** desde su sitio web oficial. Se catalogó como `concurso` en el área de `impacto` (Impacto Social), con fecha límite del **16 de agosto de 2026**. Premios en efectivo: $30,000 MXN (Cat. A) y $40,000 MXN (Cat. B) para 4 equipos ganadores. Organizado por UNAM y UNICEF México. Cupo limitado a 35 equipos.
+
+### 16. Integración de InnovaFest Guadalajara 2026
+* Se investigó y agregó **Premio a la Innovación Mexicana 2026 – InnovaFest Guadalajara** desde el PDF oficial de la convocatoria. Se catalogó como `concurso` en el área de `tecnologia` (Tecnología & Ciencia), con fecha límite del **28 de agosto de 2026**. Premio: 8 premios de $150,000 MXN c/u. Organizado por la Secretaría de Economía del Gobierno de México.
+
 
 
 

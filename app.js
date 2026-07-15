@@ -471,6 +471,69 @@ const OPPORTUNITIES_DATA = [
         url: "https://www.muuto.com/design-contest/"
     },
     {
+        id: "unesco-youth-hackathon-2026",
+        title: "UNESCO Youth Hackathon 2026",
+        type: "concurso",
+        institution: "UNESCO",
+        area: "impacto",
+        areaLabel: "Impacto Social",
+        reward: "Viaje a Tesalónica, Grecia (26–28 nov 2026) para el Voices European Festival of Journalism and Media Freedom (vuelo + hospedaje + alimentos para 2 integrantes, 4 equipos ganadores)",
+        modality: "En línea",
+        deadline: "2026-08-16",
+        description: "Hackathon global organizado por UNESCO bajo el tema 'Play Your Part: Youth Designing the Future of Media and Information Literacy'. Jóvenes de 18 a 30 años diseñan soluciones innovadoras en trackes como IA y MIL, Educación MIL, Impacto Comunitario, Participación Juvenil y Open Track. Más de 1,200 equipos de 138 países participaron en 2025.",
+        requirements: [
+            "Equipos de 2 a 6 miembros (nacionales, regionales o internacionales).",
+            "Todos los miembros deben tener entre 18 y 30 años.",
+            "Alinearse con los valores de UNESCO: paz, respeto a la diversidad y libertad de expresión.",
+            "Balance de género e inclusión altamente recomendados.",
+            "No se requiere experiencia previa.",
+            "Entregar documento de propuesta (PDF/Word, máx 10 MB) y video pitch (máx 3 minutos) en inglés."
+        ],
+        url: "https://www.unesco.org/en/articles/unesco-youth-hackathon-2026"
+    },
+    {
+        id: "climaton-unam-2026",
+        title: "Climatón UNAM 2026",
+        type: "concurso",
+        institution: "UNAM & UNICEF México",
+        area: "impacto",
+        areaLabel: "Impacto Social",
+        reward: "$30,000 MXN c/u (2 premios Cat. A) / $40,000 MXN c/u (2 premios Cat. B) / $5,000 MXN (votación pública)",
+        modality: "Híbrido (Virtual + Presencial en CDMX)",
+        deadline: "2026-08-16",
+        description: "Concurso organizado por la UNAM y UNICEF México que invita a jóvenes de 16 a 26 años a formar equipos y desarrollar propuestas frente a la crisis climática desde sus territorios. Incluye formación en cambio climático, pensamiento sistémico, acompañamiento de especialistas y una final presencial. Cupo limitado a 35 equipos.",
+        requirements: [
+            "Tener entre 16 y 26 años cumplidos al cierre de la convocatoria.",
+            "Equipos de 3 a 5 integrantes.",
+            "Residir en la República Mexicana.",
+            "Registrarse en categoría A (16-19 años) o B (20-26 años) según la edad de la mayoría del equipo.",
+            "Disponibilidad para participar en actividades del 25 de agosto al 7 de octubre de 2026.",
+            "Menores de 18 años deben adjuntar carta de autorización de uso de imagen firmada por tutor."
+        ],
+        url: "https://www.climaton.unam.mx/convocatoria/"
+    },
+    {
+        id: "innovafest-gdl-2026",
+        title: "Premio a la Innovación Mexicana 2026 – InnovaFest Guadalajara",
+        type: "concurso",
+        institution: "Secretaría de Economía del Gobierno de México",
+        area: "tecnologia",
+        areaLabel: "Tecnología & Ciencia",
+        reward: "8 premios de $150,000 MXN c/u (bolsa nacional total de $60 MDP en 5 ediciones)",
+        modality: "Presencial (Guadalajara)",
+        deadline: "2026-08-28",
+        description: "Concurso nacional organizado por la Secretaría de Economía en el marco de InnovaFest 2026 que busca dar visibilidad y reconocimiento al talento innovador mexicano. Edición Guadalajara con categorías nacionales (Salud/Biotecnología, Movilidad/Desarrollo urbano, Seguridad hídrica y alimentaria, Energía, Sostenibilidad ambiental, Transformación digital/IA) y regionales (Economía digital y TI, Sistemas agroalimentarios sostenibles).",
+        requirements: [
+            "Ser persona de nacionalidad mexicana, residente en cualquier entidad del país o en el extranjero, o extranjera con residencia permanente en México.",
+            "Participación individual o en equipo (mayoría mexicana: 50%+1).",
+            "Postular en una o más categorías nacionales y/o regionales con propuestas o proyectos distintos.",
+            "Crear perfil en el Ecosistema de Innovación e Integridad de México (ECOIIN) en innovafest.mx.",
+            "Enviar postulación a través de la plataforma antes del 28 de agosto de 2026 a las 23:59 h CDMX.",
+            "Menores de 18 años deben registrarse a través de padre, madre o tutor legal."
+        ],
+        url: "https://innovafest.mx/"
+    },
+    {
         id: "kpmg-global-tech-innovator-2026",
         title: "KPMG Private Enterprise Global Tech Innovator 2026",
         type: "concurso",
