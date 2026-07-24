@@ -108,6 +108,16 @@ Este documento contiene la bitácora y el progreso de las acciones realizadas du
 ### 16. Integración de InnovaFest Guadalajara 2026
 * Se investigó y agregó **Premio a la Innovación Mexicana 2026 – InnovaFest Guadalajara** desde el PDF oficial de la convocatoria. Se catalogó como `concurso` en el área de `tecnologia` (Tecnología & Ciencia), con fecha límite del **28 de agosto de 2026**. Premio: 8 premios de $150,000 MXN c/u. Organizado por la Secretaría de Economía del Gobierno de México.
 
+### 17. Integración de Futures Literacy & Arts for Transformative Climate Action
+* Se investigó y agregó **Futures Literacy & Arts for Transformative Climate Action** desde Eventbrite. Se catalogó como `beca` del 100% en el área de `impacto` (Impacto Social), con fecha del **8 de septiembre de 2026**. Curso certificado de Futures Literacy para la emergencia climática por One Resilient Earth y la Cátedra UNESCO de Hanze University.
 
+### 18. Integración de Brockmann IHE Delft Scholarships
+* Se investigó y agregó **Becas Brockmann IHE Delft para Mexicanos 2027** desde el sitio de IHE Delft. Se catalogó como `beca` en el área de `academia` (Academia & Investigación), con fecha límite de pre-registro del **25 de septiembre de 2026**. 2 becas completas anuales para MSc en Water and Sustainable Development en Países Bajos para mexicanos < 30 años.
 
+### 19. Integración de 4 becas internacionales destacadas
+* Se investigó y agregó **Lester B. Pearson International Student Scholarships** (U of T) – beca completa 4 años para licenciatura, fecha límite **6 de noviembre de 2026**.
+* Se investigó y agregó **Knight-Hennessy Scholars** (Stanford) – beca completa hasta 3 años para posgrado, fecha límite **6 de octubre de 2026**.
+* Se investigó y agregó **McCall MacBain Scholarships at McGill** – beca completa para maestría, fecha límite **19 de agosto de 2026** (internacional).
+* Se investigó y agregó **Schwarzman Scholars** (Tsinghua) – beca completa para maestría en Asuntos Globales, fecha límite **9 de septiembre de 2026**.
+* Las 4 becas se catalogaron como `beca` en el área de `academia` (Academia & Investigación) con modalidad presencial en sus respectivas sedes.
 

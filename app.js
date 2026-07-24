@@ -613,6 +613,127 @@ const OPPORTUNITIES_DATA = [
             "Presentar documentación del proyecto según los lineamientos de la categoría seleccionada."
         ],
         url: "https://www.fundacionamaamoedo.org/programas/becas"
+    },
+    {
+        id: "beca-futures-literacy-climate-action",
+        title: "Futures Literacy & Arts for Transformative Climate Action",
+        type: "beca",
+        institution: "One Resilient Earth & UNESCO Chair at Hanze University",
+        area: "impacto",
+        areaLabel: "Impacto Social",
+        reward: "Beca del 100% (curso certificado)",
+        modality: "En línea",
+        deadline: "2026-09-08",
+        description: "Curso certificado de Futures Literacy para abordar la emergencia climática, impartido por la Cátedra UNESCO de la Universidad Hanze y One Resilient Earth. Desarrolla habilidades de alfabetización sobre futuros, resiliencia, creatividad y liderazgo frente al cambio climático, utilizando el arte como canal de transformación interior y creatividad.",
+        requirements: [
+            "Ser estudiante o profesional en el campo de la sostenibilidad o cambio climático.",
+            "Interés en desarrollar habilidades de Futures Literacy y liderazgo climático.",
+            "Disponibilidad para asistir en línea del 8 al 10 de septiembre de 2026, 2:00-6:30 PM CEST.",
+            "Registrarse a través de la página oficial del curso en Eventbrite.",
+            "Cupo limitado a grupos pequeños para garantizar una experiencia interactiva y participativa."
+        ],
+        url: "https://www.eventbrite.com/e/futures-literacy-arts-for-transformative-climate-action-tickets-1983691530768"
+    },
+    {
+        id: "beca-brockmann-ihe-delft-2027",
+        title: "Becas Brockmann IHE Delft para Mexicanos 2027",
+        type: "beca",
+        institution: "Brockmann Foundation (Becas MOB) & IHE Delft Institute for Water Education",
+        area: "academia",
+        areaLabel: "Academia & Investigación",
+        reward: "2 becas completas (colegiatura + manutención) para MSc en Water and Sustainable Development",
+        modality: "Presencial (Países Bajos)",
+        deadline: "2026-09-25",
+        description: "Dos becas completas anuales para estudiantes mexicanos menores de 30 años interesados en cursar la Maestría en Ciencias en Water and Sustainable Development en IHE Delft, Países Bajos. Otorgadas por la Brockmann Foundation (Becas MOB) en colaboración con IHE Delft, un instituto UNESCO de educación en agua reconocido globalmente.",
+        requirements: [
+            "Ser mexicano(a) y tener menos de 30 años al momento de la solicitud.",
+            "Pre-registrarse y completar entrevista de orientación con el Director Ejecutivo de Becas MOB antes del 25 de septiembre de 2026.",
+            "Llenar la solicitud formal de beca antes del 15 de octubre de 2026.",
+            "Ser aceptado en el programa MSc en Water and Sustainable Development de IHE Delft.",
+            "Asistir a entrevista presencial en Guadalajara, Jalisco (enero 2027) si se es preseleccionado.",
+            "Comprobar fondos adicionales y presentar aval solidario con garantía."
+        ],
+        url: "https://www.un-ihe.org/news/brockmann-foundation-scholarships-available-mexican-students"
+    },
+    {
+        id: "beca-pearson-utoronto-2027",
+        title: "Lester B. Pearson International Student Scholarships",
+        type: "beca",
+        institution: "University of Toronto",
+        area: "academia",
+        areaLabel: "Academia & Investigación",
+        reward: "Beca completa por 4 años (colegiatura, libros, cuotas y residencia)",
+        modality: "Presencial (Toronto, Canadá)",
+        deadline: "2026-11-06",
+        description: "Beca internacional más prestigiosa de la Universidad de Toronto. ~37 becas anuales para estudiantes internacionales sobresalientes que demuestren excelencia académica, creatividad y potencial de liderazgo. Cubre colegiatura, libros, cuotas incidentales y residencia por 4 años de licenciatura.",
+        requirements: [
+            "Ser estudiante internacional (no canadiense) que requiera permiso de estudio.",
+            "Cursar el último año de preparatoria en 2026/2027 o haber egresado no antes de junio de 2026.",
+            "Ser nominado por su escuela preparatoria (solo 1 estudiante por escuela).",
+            "Solicitar admisión a un programa de licenciatura en la Universidad de Toronto antes del 16 de octubre de 2026.",
+            "Completar la solicitud de la beca Pearson antes del 6 de noviembre de 2026."
+        ],
+        url: "https://future.utoronto.ca/pearson-scholarships"
+    },
+    {
+        id: "beca-knight-hennessy-stanford-2027",
+        title: "Knight-Hennessy Scholars",
+        type: "beca",
+        institution: "Stanford University",
+        area: "academia",
+        areaLabel: "Academia & Investigación",
+        reward: "Beca completa hasta por 3 años (colegiatura + manutención + viajes)",
+        modality: "Presencial (Stanford, California, EE.UU.)",
+        deadline: "2026-10-06",
+        description: "Programa multidisciplinario de desarrollo de liderazgo para estudios de posgrado en Stanford. Los becarios reciben hasta 3 años de apoyo financiero completo para cursar estudios de maestría o doctorado en cualquiera de las 7 escuelas de Stanford, mientras participan en experiencias que los preparan para ser líderes visionarios y colaborativos.",
+        requirements: [
+            "Solicitar simultáneamente a Knight-Hennessy Scholars y a un programa de posgrado en Stanford.",
+            "Ser aceptado en ambos programas (KHS y el programa de posgrado).",
+            "No hay restricciones de ciudadanía o nacionalidad.",
+            "Tener título de licenciatura (o estar por concluirlo).",
+            "Demostrar independencia de pensamiento, liderazgo propositivo y mentalidad cívica."
+        ],
+        url: "https://knight-hennessy.stanford.edu/"
+    },
+    {
+        id: "beca-mccall-macbain-mcgill-2027",
+        title: "McCall MacBain Scholarships at McGill",
+        type: "beca",
+        institution: "McGill University (Montreal, Canadá)",
+        area: "academia",
+        areaLabel: "Academia & Investigación",
+        reward: "Beca completa para maestría o profesional + 100 premios de entrada",
+        modality: "Presencial (Montreal, Canadá)",
+        deadline: "2026-08-19",
+        description: "Hasta 30 becas completas y 100 premios de entrada anuales para estudios de maestría o programas profesionales en McGill University. Busca candidatos con carácter excepcional, compromiso comunitario, potencial de liderazgo, espíritu emprendedor y fortaleza académica. Incluye mentoría, aprendizaje interdisciplinario y una comunidad global.",
+        requirements: [
+            "Ser estudiante actual que obtendrá su primera licenciatura antes de agosto de 2027, o haberla obtenido en los últimos 5 años, o tener título desde hace más de 5 años y tener 30 años o menos al 1 de enero de 2026.",
+            "Cumplir con los requisitos mínimos de admisión a un programa de maestría en McGill.",
+            "Solicitar por separado la admisión a McGill University.",
+            "Estudiantes internacionales (fuera de Canadá/EE.UU.): solicitar antes del 19 de agosto de 2026.",
+            "Estudiantes de Canadá/EE.UU.: solicitar antes del 23 de septiembre de 2026."
+        ],
+        url: "https://mccallmacbainscholars.org/apply/"
+    },
+    {
+        id: "beca-schwarzman-tsinghua-2027",
+        title: "Schwarzman Scholars",
+        type: "beca",
+        institution: "Schwarzman College, Tsinghua University (Beijing, China)",
+        area: "academia",
+        areaLabel: "Academia & Investigación",
+        reward: "Beca completa para maestría en 1 año (colegiatura, alojamiento, viajes y estipendio)",
+        modality: "Presencial (Beijing, China)",
+        deadline: "2026-09-09",
+        description: "Programa de maestría de 1 año en Asuntos Globales en la Universidad Tsinghua en Beijing. Diseñado para preparar a la próxima generación de líderes mundiales y profundizar el entendimiento entre China y el resto del mundo. Incluye desarrollo de liderazgo, mentoría y una red global de expertos.",
+        requirements: [
+            "Tener título de licenciatura (completado antes del 1 de agosto de 2027).",
+            "Tener entre 18 y 28 años de edad al 1 de agosto de 2027.",
+            "Demostrar dominio del inglés (TOEFL ≥ 100, IELTS ≥ 7, o equivalente).",
+            "Demostrar habilidades de liderazgo, carácter ejemplar, aptitud académica y capacidad intercultural.",
+            "Solicitantes de todo el mundo: fecha límite 9 de septiembre de 2026."
+        ],
+        url: "https://www.schwarzmanscholars.org/admissions/"
     }
 ];
 
