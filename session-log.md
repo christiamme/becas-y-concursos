@@ -3,7 +3,7 @@
 Este documento contiene la bitácora y el progreso de las acciones realizadas durante la sesión de desarrollo actual del proyecto.
 
 ## 📅 Fecha y Hora de Registro
-* **Fecha:** 18 de junio de 2026
+* **Fecha:** 23 de julio de 2026
 * **Hora de inicio:** 11:30 AM (Local)
 
 ---
@@ -120,4 +120,7 @@ Este documento contiene la bitácora y el progreso de las acciones realizadas du
 * Se investigó y agregó **McCall MacBain Scholarships at McGill** – beca completa para maestría, fecha límite **19 de agosto de 2026** (internacional).
 * Se investigó y agregó **Schwarzman Scholars** (Tsinghua) – beca completa para maestría en Asuntos Globales, fecha límite **9 de septiembre de 2026**.
 * Las 4 becas se catalogaron como `beca` en el área de `academia` (Academia & Investigación) con modalidad presencial en sus respectivas sedes.
+
+### 20. Integración de Suiza-México en Corto 2026
+* Se investigó y agregó **Suiza-México en Corto 2026** desde Instagram oficial de la Embajada de Suiza en México. Se catalogó como `concurso` en el área de `arte` (Arte & Cultura), con fecha límite del **10 de septiembre de 2026**. Concurso de cortometrajes para jóvenes de 17–30 años con videocámara profesional ($2,000 USD) como primer premio. En alianza con el Abierto de Diseño CDMX.
 

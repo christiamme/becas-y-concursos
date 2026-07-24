@@ -734,6 +734,109 @@ const OPPORTUNITIES_DATA = [
             "Solicitantes de todo el mundo: fecha límite 9 de septiembre de 2026."
         ],
         url: "https://www.schwarzmanscholars.org/admissions/"
+    },
+    {
+        id: "beca-fulbright-graduate-degree-2027",
+        title: "Fulbright-García Robles Graduate Degree Award",
+        type: "beca",
+        institution: "COMEXUS (Fulbright Commission in Mexico)",
+        area: "academia",
+        areaLabel: "Academia & Investigación",
+        reward: "Manutención mensual ~24,000-28,000 MXN + hasta 50,000 MXN/año en colegiatura + boleto anual MX-US",
+        modality: "Presencial (México)",
+        deadline: "2026-10-06",
+        description: "Beca Fulbright para que ciudadanos estadounidenses cursen una maestría (hasta 2 años) o doctorado (hasta 3 años) en una universidad mexicana. Administrada por COMEXUS. Cubre manutención mensual, colegiatura parcial (hasta 50,000 MXN/año), y un boleto redondo MX-US por año. Todas las áreas excepto medicina, veterinaria y odontología.",
+        requirements: [
+            "Ser ciudadano estadounidense.",
+            "Tener título de licenciatura (para maestría) o maestría (para doctorado).",
+            "No residir en México durante el proceso de selección.",
+            "Demostrar dominio avanzado del español.",
+            "Ser aceptado en un programa de posgrado en una universidad mexicana."
+        ],
+        url: "https://us.fulbrightonline.org/countries/western-hemisphere/mexico/1644"
+    },
+    {
+        id: "beca-fulbright-study-research-2027",
+        title: "Fulbright-García Robles Open Study/Research Award",
+        type: "beca",
+        institution: "COMEXUS (Fulbright Commission in Mexico)",
+        area: "academia",
+        areaLabel: "Academia & Investigación",
+        reward: "Estipendio mensual ~24,000-28,000 MXN + beneficios de viaje y salud por 6-9 meses",
+        modality: "Presencial (México)",
+        deadline: "2026-10-06",
+        description: "Beca Fulbright para que ciudadanos estadounidenses (nivel maestría/doctorado) realicen investigación independiente en México durante 6-9 meses. Administrada por COMEXUS. Cubre estipendio mensual, boleto internacional, seguro de salud y apoyo para materiales. Interés particular en STEM, artes, y temas de relevancia binacional.",
+        requirements: [
+            "Ser ciudadano estadounidense (también aplican ciudadanos duales MX-US).",
+            "Estar inscrito en un programa de maestría o doctorado, o haber completado una maestría terminal.",
+            "No residir en México durante el proceso de selección.",
+            "Demostrar dominio avanzado del español.",
+            "Obtener afiliación con una institución de investigación o universidad mexicana."
+        ],
+        url: "https://us.fulbrightonline.org/countries/western-hemisphere/mexico/1643"
+    },
+    {
+        id: "beca-fulbright-binational-business-2027",
+        title: "Fulbright-García Robles Binational Business Program",
+        type: "beca",
+        institution: "COMEXUS (Fulbright Commission in Mexico) & ITAM",
+        area: "academia",
+        areaLabel: "Academia & Investigación",
+        reward: "~$30,000 MXN/mes + colegiatura ITAM cubierta + boleto aéreo por 10 meses",
+        modality: "Presencial (Ciudad de México)",
+        deadline: "2026-10-06",
+        description: "Beca Fulbright para que ciudadanos estadounidenses realicen un internado de 10 meses en empresas mexicanas y multinacionales, combinado con cursos de negocios internacionales en ITAM. El 80% del tiempo es en la empresa. COMEXUS asigna la colocación mediante un proceso de matching con empresas participantes.",
+        requirements: [
+            "Ser ciudadano estadounidense.",
+            "Tener título de licenciatura o maestría en Administración, Finanzas, Economía, Relaciones Internacionales, Derecho, Contaduría o afines.",
+            "Preferentemente menos de 3 años de experiencia laboral post-graduación.",
+            "Demostrar dominio avanzado del español.",
+            "No residir en México durante el proceso de selección."
+        ],
+        url: "https://us.fulbrightonline.org/countries/western-hemisphere/mexico/1645"
+    },
+    {
+        id: "oist-research-internship-2026",
+        title: "OIST Research Internship",
+        type: "beca",
+        institution: "Okinawa Institute of Science and Technology (OIST)",
+        area: "tecnologia",
+        areaLabel: "Tecnología & Ciencia",
+        reward: "Estipendio de investigación (4-6 meses) + alojamiento + boleto aéreo",
+        modality: "Presencial (Okinawa, Japón)",
+        deadline: "2026-10-15",
+        description: "Internado de investigación en el Okinawa Institute of Science and Technology (OIST), un instituto de clase mundial en Japón. Los participantes trabajan en laboratorios de investigación de vanguardia durante 4 a 6 meses. Ideal para estudiantes interesados en el programa de doctorado de OIST. Cubre estipendio, alojamiento y boleto aéreo.",
+        requirements: [
+            "Estar cursando los últimos 2 años de licenciatura o cualquier año de maestría en universidad japonesa o del extranjero.",
+            "Tener aprobación de la institución de origen (si es estudiante actual).",
+            "Preparar CV, Statement of Purpose (≤400 palabras), y 1-3 cartas de recomendación.",
+            "Pagar tasa de solicitud de 3,000 JPY (no reembolsable).",
+            "Disponibilidad para estar en Okinawa, Japón de 4 a 6 meses entre abril y septiembre de 2027."
+        ],
+        url: "https://www.oist.jp/admissions/research-internship/apply-research-internship"
+    },
+    {
+        id: "suiza-mexico-en-corto-2026",
+        title: "Suiza-México en Corto 2026",
+        type: "concurso",
+        institution: "Embajada de Suiza en México",
+        area: "arte",
+        areaLabel: "Arte & Cultura",
+        reward: "1er lugar: Videocámara profesional ($2,000 USD) | 2do lugar: Licencia Adobe Premiere Pro (1 año) | 3er lugar: Mención oficial en el Día de Suiza",
+        modality: "Virtual",
+        deadline: "2026-09-10",
+        description: "Concurso de cortometrajes para jóvenes cineastas amateur (<30 años) organizado por la Embajada de Suiza en México en alianza con el Abierto de Diseño CDMX. Busca celebrar la creatividad juvenil destacando innovación, jóvenes y desarrollo sostenible, promoviendo los vínculos culturales entre Suiza y México. Los cortometrajes pueden grabarse con cualquier dispositivo, incluyendo celular.",
+        requirements: [
+            "Tener nacionalidad suiza, mexicana o ser extranjero residente en México.",
+            "Tener entre 17 y 30 años.",
+            "Duración máxima del cortometraje: 10 minutos.",
+            "Género libre: ficción, documental, animación, entre otros.",
+            "Idiomas: español o idiomas nacionales de Suiza (alemán, francés, italiano o romanche). Si está en idioma suizo, debe incluir subtítulos en español.",
+            "Cortometraje original y creado íntegramente por los participantes.",
+            "Subir a Vimeo o YouTube y enviar el enlace a mexicocity.proyectosdeimpacto@eda.admin.ch junto con identificación o permiso de residencia.",
+            "Entregar la Carta de Autorización de Imagen y Difusión de la Obra Audiovisual firmada."
+        ],
+        url: "https://www.instagram.com/p/DbB_-rPDC6k/"
     }
 ];
 
